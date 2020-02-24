@@ -1,0 +1,15 @@
+instalar o docker na maquina.
+
+visualizar os containers
+docker ps
+
+docker ps -a
+
+criar o container
+docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgre
+
+startar o container
+docker start database
+
+parar o container
+docker stop database
