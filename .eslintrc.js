@@ -20,5 +20,8 @@ module.exports = {
     "camelcase": "off",
     "no-unused-vars": ["error", {"argsIgnorePattern": "next"}],
     "linebreak-style": 0,
+    "arrow-body-style": 0,
+    "comma-dangle": ["off"],
+    "no-confusing-arrow": 0
   },
 };

@@ -13,3 +13,17 @@ docker start database
 
 parar o container
 docker stop database
+
+
+
+
+migrations
+
+#Criar migration
+yarn sequelize migration:create --name=nomeMigration
+
+#Rodar migration
+yarn sequelize db:migrate
+
+#Desfazer a ultima migration
+yarn sequelize db:migrate:undo ou undo:all (todas)
